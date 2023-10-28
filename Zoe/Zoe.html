@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoe</title>
+    <link rel="icon" type="image/png" href="../Imagenes/Icono.png">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="Zoe.css">
+</head>
+<body>
+    <audio controls loop id="miAudio">
+        <source src="../Themes/zoetheme.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function mostrarAlerta() {
+        alert("Se va a redirigir a la página principal");
+        }
+    </script>
+    <header id="Encabezado">
+        <h1> LEAGUE OF LEGENDS </h1>
+        <nav id="Enlaces">
+            <p><a href="../index.html" onclick="mostrarAlerta()">Índice</a></p>
+            <p><a href="../Soraka/Soraka.html">Soraka</a></p>
+            <p><a href="../Katarina/Katarina.html">Katarina</a></p>
+        </nav>
+    </header>
+    <article id="Contenido">
+        <section id="Nombre"> 
+            <h2 id="NombreCampeon">Zoe</h2>
+            <img src="../Imagenes/Decorativo.png">
+        </section>
+        <section id="Descripcion">
+            <p>Como personificación de la travesura, de la imaginación y del cambio, Zoe es la mensajera cósmica de Targon y anuncia acontecimientos importantes que remodelan mundos. Su mera presencia distorsiona las matemáticas arcanas que gobiernan las realidades y a veces provoca cataclismos sin intención ni malicia. Puede que eso explique el aire de indiferencia con el que Zoe aborda sus responsabilidades, lo que le da el tiempo suficiente para dedicarse a jugar, a gastar bromas a los mortales o, simplemente, a divertirse. Un encuentro con Zoe puede ser dichoso y alentador, pero siempre implica más de lo que parece y suele resultar extremadamente peligroso.</p>
+        </section>
+        <section id="Habilidades">
+            <table>
+                <thead>
+                    <tr>
+                        <th>P</th>
+                        <th>Q</th>
+                        <th>W</th>
+                        <th>E</th>
+                        <th>R</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="Pasiva" onclick="desplegable('Pasiva','Habilidades')"><img src="../Habilidades_Zoe/Pasiva_Zoe.webp"></td>
+                        <td id="Q" onclick="desplegable('Q','Habilidades')"><img src="../Habilidades_Zoe/Q.webp"></td>
+                        <td id="W" onclick="desplegable('W','Habilidades')"><img src="../Habilidades_Zoe/W.webp"></td>
+                        <td id="E" onclick="desplegable('E','Habilidades')"><img src="../Habilidades_Zoe/E.webp"></td>
+                        <td id="R" onclick="desplegable('R','Habilidades')"><img src="../Habilidades_Zoe/R.webp"></td>
+                    </tr>
+                    <tr>
+                        <td>¡MÁS CHISPAS!</td>
+                        <td>PÁDEL ESTELAR</td>
+                        <td>LADRONA DE HECHIZOS</td>
+                        <td>BURBUJA SOMNÍFERA</td>
+                        <td>SALTO DIMENSIONAL</td>
+                    </tr>
+                    <tr class="Pasiva Habilidades hidden">
+                        <td colspan="5">Tras lanzar un hechizo, el siguiente ataque básico de Zoe inflige daño mágico adicional.</td>
+                    </tr>
+                    <tr class="Q Habilidades hidden">
+                        <td colspan="5">Zoe dispara un misil que puede redirigir en el aire. Cuanta más distancia haya recorrido en línea recta, más daño infligirá.</td>
+                    </tr>
+                    <tr class="W Habilidades hidden">
+                        <td colspan="5">Zoe puede recoger los restos de los hechizos de invocador enemigos y las activas de los objetos y lanzarlos una vez. Cuando lanza un hechizo de invocador, consigue 3 misiles que dispara al objetivo más cercano.</td>
+                    </tr>
+                    <tr class="E Habilidades hidden">
+                        <td colspan="5">Deja al objetivo aletargado y hace que se duerma. Mientras está dormido, se reduce la resistencia mágica del objetivo. El daño del primer ataque que despierte al objetivo se duplica, hasta cierto límite.</td>
+                    </tr>
+                    <tr class="R Habilidades hidden">
+                        <td colspan="5">Zoe se traslada a una ubicación cercana durante 1 s y después vuelve al punto inicial.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <iframe src="https://www.youtube.com/embed/HhwRz47Kk2Y?si=aqfPecQ_Y7yS2of-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <section id="Adicional"> 
+            <p>Zoe es fuerte contra:</p>
+            <ol>
+                <li>Zed</li>
+                <li>Akali</li>
+                <li>Cassiopeia</li>
+                <li>Veigar</li>
+
+            </ol>
+        </section>
+        <p class="Centrar"><a class="Boton" href="../index.html" onclick="mostrarAlerta()">Volver</a></p>
+    </article>
+    <footer>
+        <p> José María Gago Ríos   14/10/2023 </p>
+    </footer>
+    <script src="../Main.js"></script>
+</body>
+</html>

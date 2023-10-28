@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katarina</title>
+    <link rel="icon" type="image/png" href="../Imagenes/Icono.png">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="Katarina.css">
+
+</head>
+<body>
+    <audio controls loop id="miAudio">
+        <source src="../Themes/katarinatheme.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function mostrarAlerta() {
+        alert("Se va a redirigir a la página principal");
+        }
+    </script>
+    <header id="Encabezado">
+        <h1> LEAGUE OF LEGENDS </h1>
+        <nav id="Enlaces">
+            <p><a href="../index.html" onclick="mostrarAlerta()">Índice</a></p>
+            <p><a href="../Soraka/Soraka.html">Soraka</a></p>
+            <p><a href="../Zoe/Zoe.html">Zoe</a></p>
+        </nav>
+    </header>
+    <article id="Contenido">
+        <section id="Nombre"> 
+            <h2 id="NombreCampeon">Katarina</h2>
+            <img src="../Imagenes/Decorativo.png">
+        </section>
+        <section id="Descripcion">
+            <p>Decisiva en su juicio y letal en combate, Katarina es una asesina noxiana del más alto calibre. Como la hija mayor del legendario General Du Couteau, ella hizo que reconocieran sus talentos con agiles muertes a sus enemigos desprevenidos. Su feroz ambición la ha llevado a buscar blancos fuertemente protegidos aunque tenga que poner en riesgo a sus aliados; sin embargo, sin importar la misión, Katarina no dudará al ejecutar su deber en medio de un torbellino de dagas.</p>
+        </section>
+        <section id="Habilidades">
+            <table>
+                <thead>
+                    <tr>
+                        <th>P</th>
+                        <th>Q</th>
+                        <th>W</th>
+                        <th>E</th>
+                        <th>R</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="Pasiva" onclick="desplegable('Pasiva','Habilidades')"><img src="../Habilidades_Katarina/Pasiva_Katarina.webp"></td>
+                        <td id="Q" onclick="desplegable('Q','Habilidades')"><img src="../Habilidades_Katarina/Q.webp"></td>
+                        <td id="W" onclick="desplegable('W','Habilidades')"><img src="../Habilidades_Katarina/W.webp"></td>
+                        <td id="E" onclick="desplegable('E','Habilidades')"><img src="../Habilidades_Katarina/E.webp"></td>
+                        <td id="R" onclick="desplegable('R','Habilidades')"><img src="../Habilidades_Katarina/R.webp"></td>
+                    </tr>
+                    <tr>
+                        <td>ANSIA</td>
+                        <td>HOJA REBOTANTE</td>
+                        <td>PREPARACIÓN</td>
+                        <td>VELOCIDAD DEL RAYO</td>
+                        <td>LOTO MORTAL</td>
+                    </tr>
+                    <tr class="Pasiva Habilidades hidden">
+                        <td colspan="5">Cuando muere un campeón que haya recibido daño de Katarina en los últimos segundos, el enfriamiento de sus habilidades se reduce drásticamente. Si Katarina recoge una daga, la usa para acuchillar a todos los enemigos cercanos, lo que inflige daño mágico.</td>
+                    </tr>
+                    <tr class="Q Habilidades hidden">
+                        <td colspan="5">Katarina lanza al objetivo una daga que rebota hacia los enemigos cercanos antes de caer al suelo.</td>
+                    </tr>
+                    <tr class="W Habilidades hidden">
+                        <td colspan="5">Katarina obtiene un aumento de velocidad de movimiento y lanza una daga al aire encima de ella.</td>
+                    </tr>
+                    <tr class="E Habilidades hidden">
+                        <td colspan="5">Katarina aparece junto al objetivo. Lo golpea si es un enemigo o, de lo contrario, golpea al enemigo más cercano.</td>
+                    </tr>
+                    <tr class="R Habilidades hidden">
+                        <td colspan="5">Katarina despide una ráfaga de hojas e inflige gran cantidad de daño mágico a los 3 campeones enemigos más cercanos.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <iframe src="https://www.youtube.com/embed/Kxd_Md9jbi0?si=aMYgmZrLujzyZX_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <section id="Adicional"> 
+            <p>Katarina es fuerte contra:</p>
+            <ol>
+                <li>Brand</li>
+                <li>Karthus</li>
+                <li>Orianna</li>
+                <li>Yasuo</li>
+
+            </ol>
+        </section>
+        <p class="Centrar"><a class="Boton" href="../index.html" onclick="mostrarAlerta()">Volver</a></p>
+    </article>
+    <footer>
+        <p> José María Gago Ríos   14/10/2023 </p>
+    </footer>
+    <script src="../Main.js"></script>
+</body>
+</html>

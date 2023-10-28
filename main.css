@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Kadwa';
+    src: url('Fonts/Kadwa-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin:0;
+    padding: 0%;
+}
+h1{
+    font-family: monospace;
+    font-size: 40px;
+    margin: 0;
+    color:#E1E6D2;
+    text-align: center;
+}
+#Encabezado{
+    position: sticky;
+    top:0;
+    width: -webkit-fill-available;
+    align-items: center;
+    box-shadow: inset rgb(48, 90, 124) 0px -1px 30px;
+    padding: 20px;
+    background-color: #010a13;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+#Enlaces{
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left: 5px solid #C89B3C;
+}
+#Enlaces > p{
+    font-size: 22px;
+    font-family: math;
+    margin:0;
+    margin-right: 60px;
+    padding: 10px;
+    display: inline;
+    color: #C89B3C;
+}
+#Enlaces a{
+    font-family: 'Kadwa', sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+#Contenido {
+    background-image: url(Imagenes/Fondo.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    min-height: 100vh;
+}
+#Contenido > * {
+    max-width: 1200px;
+}
+#Nombre, #Habilidades {
+    margin:auto;
+    width: fit-content;
+    max-width: 1200px;
+}
+#Nombre img{
+    max-width: 800px;
+    margin-bottom: 40px;
+
+}
+#Nombre h2{
+    word-break: break-all;
+    text-shadow: 0px 0px 6px black;
+    color:white;
+    margin: auto;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Kadwa', sans-serif;
+    cursor: pointer;
+    width: fit-content;
+}
+#Habilidades {
+    margin-top: 30px;
+    background-color: #0A1428;
+}
+#Habilidades > table{
+    border: 1px solid white;
+    color: white;
+    margin: auto;
+    font-size: 30px;
+}
+#Habilidades > table td, th {
+    border: 1px solid white;
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+    max-width: 200px;
+}
+#Habilidades > table th {
+    font-family: sans-serif;
+}
+#Habilidades img{
+    aspect-ratio: 1/1;
+    width: 150px;
+    cursor: pointer;
+}
+#Habilidades iframe {
+    aspect-ratio: 16/9;
+    width: -webkit-fill-available;
+    padding: 16px;
+}
+#Descripcion, #Lista, #Adicional {
+    max-width: 1200px;
+    background-color: #0A1428;
+    padding: 30px;
+    color: wheat;
+    font-size: 25px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: sans-serif;
+    border: 2px solid #C89B3C;
+    box-shadow: inset #00000045 0px 0px 25px;
+} 
+#Lista a{
+    text-decoration: none;
+    color: #C89B3C;    
+}
+#Lista li {
+    margin-bottom: 30px;
+}
+footer{
+    bottom:0;
+    width: -webkit-fill-available;
+    align-items: center;
+    box-shadow: inset rgb(48, 90, 124) 0px -1px 15px;
+    padding: 20px;
+    background-color: #010a13;
+    color: #CDFAFA;
+    text-align: center;
+    font-family: 'Kadwa', sans-serif;
+}
+.Boton {
+    padding: 20px;
+    background: #010a13;
+    border: 3px solid #C89B3C;
+    color: #E1E6D2;
+    text-decoration: none;
+    font-family: 'Kadwa', sans-serif;
+}
+.Boton:hover {
+    filter:invert();
+}
+.Centrar {
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.hidden {
+    display: none;
+}
+#Habilidades > table > tbody > tr.Habilidades> td {
+    word-break: break-all;
+    border: none;
+    text-align: left;
+    padding: 15px;
+    color: #C89B3C;
+    width: 100%;
+}
+#Habilidades > table > tbody > tr > td.active img{
+    border: 1px solid #C89B3C; 
+}
+#miAudio {
+    display: none;
+}
