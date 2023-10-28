@@ -89,13 +89,11 @@ h1{
     background-color: #0A1428;
 }
 #Habilidades > table{
-    border: 1px solid white;
     color: white;
     margin: auto;
     font-size: 30px;
 }
 #Habilidades > table td, th {
-    border: 1px solid white;
     text-align: center;
     padding: 15px;
     width: 200px;
