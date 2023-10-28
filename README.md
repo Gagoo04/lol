@@ -1,1 +1,1 @@
-<a href="Gagoo04.github.io/WebLol"> Link a la página</a>
+<a href="https://gagoo04.github.io/lol"> Link a la página</a>
