@@ -175,9 +175,6 @@ footer{
 #miAudio {
     display: none;
 }
-#xml { 
-    white-space: pre; font-family: monospace; 
-}
-element { 
-    display: block; margin-left: 1em; 
+footer > p{
+    display: inline;
 }
