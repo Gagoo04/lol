@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lol>
+    <Personaje1>
+        <Soraka>
+            <Descripción>
+                Soraka, una nómada proveniente de las dimensiones celestiales más allá del monte Targon, dejó a un lado su inmortalidad para proteger a las razas mortales de sus propios instintos asesinos. Su cometido es difundir las virtudes de la compasión y la misericordia entre todos los seres con los que se cruza, e incluso sanar a aquellos que desean hacerle daño. Pese a los problemas que ha presenciado Soraka hasta la fecha, sigue creyendo firmemente que los pueblos de Runaterra no han alcanzado todo su potencial.
+            </Descripción>
+                <Habilidades>
+                    <P>SALVACIÓN</P>
+                    <Q>INVOCACIÓN ESTELAR</Q>
+                    <W>INYECCIÓN ASTRAL</W>
+                    <E>EQUINOCCIO</E>
+                    <R>PLEGARIA</R>
+                </Habilidades>
+        </Soraka>
+    </Personaje1>
+    <Personaje2>
+        <Zoe>
+            <Descripción>
+                Como personificación de la travesura, de la imaginación y del cambio, Zoe es la mensajera cósmica de Targon y anuncia acontecimientos importantes que remodelan mundos. Su mera presencia distorsiona las matemáticas arcanas que gobiernan las realidades y a veces provoca cataclismos sin intención ni malicia. Puede que eso explique el aire de indiferencia con el que Zoe aborda sus responsabilidades, lo que le da el tiempo suficiente para dedicarse a jugar, a gastar bromas a los mortales o, simplemente, a divertirse. Un encuentro con Zoe puede ser dichoso y alentador, pero siempre implica más de lo que parece y suele resultar extremadamente peligroso.
+            </Descripción>
+                <Habilidades>
+                    <P>¡MÁS CHISPAS!</P>
+                    <Q>PÁDEL ESTELAR</Q>
+                    <W>LADRONA DE HECHIZOS</W>
+                    <E>BURBUJA SOMNÍFERA</E>
+                    <R>SALTO DIMENSIONAL</R>
+                </Habilidades>
+        </Zoe>
+    </Personaje2>
+    <Personaje3>
+        <Katarina>
+            <Descripción>
+                Decisiva en su juicio y letal en combate, Katarina es una asesina noxiana del más alto calibre. Como la hija mayor del legendario General Du Couteau, ella hizo que reconocieran sus talentos con agiles muertes a sus enemigos desprevenidos. Su feroz ambición la ha llevado a buscar blancos fuertemente protegidos aunque tenga que poner en riesgo a sus aliados; sin embargo, sin importar la misión, Katarina no dudará al ejecutar su deber en medio de un torbellino de dagas.
+            </Descripción>
+                <Habilidades>
+                    <P>ANSIA</P>
+                    <Q>HOJA REBOTANTE</Q>
+                    <W>PREPARACIÓN</W>
+                    <E>VELOCIDAD DEL RAYO</E>
+                    <R>LOTO MORTAL</R>
+                </Habilidades>
+        </Katarina>
+    </Personaje3>
+</lol>
+
+                
+
+                
+
+                
+
+

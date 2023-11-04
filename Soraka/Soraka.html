@@ -12,10 +12,16 @@
     <audio controls loop id="miAudio">
         <source src="../Themes/sorakatheme.m4a" type="audio/mpeg">
     </audio>
+    <script>
+        function mostrarAlerta() {
+        alert("Se va a redirigir a la página principal");
+        }
+    </script>
     <header id="Encabezado">
         <h1> LEAGUE OF LEGENDS </h1>
         <nav id="Enlaces">
-            <p><a href="../index.html">Índice</a></p>
+            <p><a href="main.xml">Suscribirse</a></p>
+            <p><a href="../index.html" onclick="mostrarAlerta()">Índice</a></p>
             <p><a href="../Zoe/Zoe.html">Zoe</a></p>
             <p><a href="../Katarina/Katarina.html">Katarina</a></p>
         </nav>
@@ -83,7 +89,7 @@
 
             </ol>
         </section>
-        <p class="Centrar"><a class="Boton" href="../index.html">Volver</a></p>
+        <p class="Centrar"><a class="Boton" href="../index.html" onclick="mostrarAlerta()">Volver</a></p>
     </article>
     <footer>
         <p> José María Gago Ríos   14/10/2023 </p>
