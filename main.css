@@ -20,7 +20,7 @@ h1{
     top:0;
     width: -webkit-fill-available;
     align-items: center;
-    box-shadow: inset rgb(48, 90, 124) 0px -1px 30px;
+    box-shadow: inset #003149 0px -1px 30px;
     padding: 20px;
     background-color: #010a13;
     display: flex;
@@ -132,23 +132,27 @@ h1{
     margin-bottom: 30px;
 }
 footer{
+    font-size: 20px;
     bottom:0;
     width: -webkit-fill-available;
     align-items: center;
-    box-shadow: inset rgb(48, 90, 124) 0px -1px 15px;
+    box-shadow: inset #003149 0px -1px 30px;
     padding: 20px;
     background-color: #010a13;
     color: #CDFAFA;
     text-align: center;
     font-family: 'Kadwa', sans-serif;
+    display: flex;
+    justify-content: space-around;
 }
 .Boton {
     padding: 20px;
     background: #010a13;
     border: 3px solid #C89B3C;
-    color: #E1E6D2;
+    color: #ffffff;
     text-decoration: none;
     font-family: 'Kadwa', sans-serif;
+    transition: all 0.3s;
 }
 .Boton:hover {
     filter:invert();
@@ -177,4 +181,40 @@ footer{
 }
 footer > p{
     display: inline;
+}
+.BotonesDelFooter{
+    color: #010A13;
+    border-radius: 40px;    
+    box-shadow: 0 0 0 0 #005A82, 0 0 0 0 #0AC8B9;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 0.5rem;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    background-image: linear-gradient(-225deg, #0AC8B9 0%, #005A82);
+    position: relative;
+    margin: 32px;
+}
+
+.BotonesDelFooter::after{
+    content: "";
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    background: #13ff13;
+    background-image: linear-gradient(-225deg, #0AC8B9 0%, #005A82);
+    z-index: -1;
+    transition: transform 0.5s ease;
+}
+
+.BotonesDelFooter:hover{
+    color: #F0E6D2;
+    transform: translate(0, -6px);
+}
+
+.BotonesDelFooter:hover::after{
+    transform: rotate(150deg);
 }
